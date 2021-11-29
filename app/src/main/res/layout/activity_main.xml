@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="BMI CALCULATOR"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_margin="20dp"
+        android:hint="Enter your Height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_margin="20dp"
+        android:hint="Enter your Weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmiText"
+        android:textColor="@color/purple_200"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Calculate BMI"
+        android:id="@+id/calcBtn"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
